@@ -1,18 +1,18 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Birthstone+Bounce&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Oswald:wght@300&family=Pacifico&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #03045e   ;
-  --secondary-color: #009bb6 ;
+  --secondary-color:#0077b6 ;
   --accent1-color:#03045e ;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font:Birthstone Bounce;
-  --paragraph-font: Alumni sans;
+  --heading-font:"Pacifico display";
+  --paragraph-font:"Explora family";
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #03045e;  /* headlines on a white background */ 
@@ -74,7 +74,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: rgb(119, 97, 241);
+  background-color: rgb(97, 212, 241);
 }
 .colors td{
   width: 25%;
@@ -135,17 +135,17 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: rgb(24, 228, 92);
+  background-color: rgb(24, 214, 228);
   line-height: 3em;
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: rgb(127, 135, 247);
+  background-color: rgb(7, 65, 192);
   line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: rgb(125, 167, 245);
+  background-color: rgb(9, 6, 167);
   line-height: 3em;
 }
 .top {
