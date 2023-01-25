@@ -1,29 +1,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Explora&family=Oswald:wght@300&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Explora&family=Lora&family=Oswald:wght@300&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #03045e   ;
-  --secondary-color:#0077b6 ;
-  --accent1-color:#03045e ;
-  --accent2-color: white;
+  --primary-color: #0096c7   ;
+  --secondary-color: #023e8a ;
+  --accent1-color: #caf0f8;
+  --accent2-color: #00b4d8;
 
   /* change the values below to your chosen font(s) */
-  --heading-font:"Pacifico display";
-  --paragraph-font:"Explora family";
+  --heading-font: "Dancing Script";
+  --paragraph-font: lora;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #03045e;  /* headlines on a white background */ 
-  --headline-color-on-color: #0077b6 ; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #0d6632; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: rgb(16, 145, 55); /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --headline-color-on-white:#023e8a ; /* headlines on a white background */ 
+  --headline-color-on-color:#03045e ; /* headlines on a colored background */ 
+  --paragraph-color-on-white:#023e8a ; /* paragraph text on a white background */ 
+  --paragraph-color-on-color:#03045e ; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #48cae4 ;
+  --nav-link-color:#1b2429 ;
+  --nav-background-color:#acd5f0e8  ;
+  --nav-hover-link-color:#ade8cae4 ;
+  --nav-hover-background-color:#ade8cae4 ;
 }
 
 
@@ -42,7 +42,7 @@ img {
   max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--Alumni+Sans);
+  font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
 h2 {
@@ -63,7 +63,7 @@ header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
 p {
-  font-family: var(--Alumni Sans);
+  font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
@@ -74,7 +74,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: rgb(97, 212, 241);
+  background-color: #999;
 }
 .colors td{
   width: 25%;
@@ -135,17 +135,17 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: rgb(24, 214, 228);
+  background-color: #ccc;
   line-height: 3em;
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: rgb(7, 65, 192);
+  background-color: #ccc;
   line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: rgb(9, 6, 167);
+  background-color: #ccc;
   line-height: 3em;
 }
 .top {
@@ -162,3 +162,4 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+ 
