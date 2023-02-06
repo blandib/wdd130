@@ -2,12 +2,12 @@
 
 
 heading {
-    font-family:Dancing script, lora, serif;
+    font-family: Dancing script, lora, serif;
 
 }
 body {
     background-color:rgb(255, 255, 255) ;
-    font-family:Dancing script, lora,serif; 
+    font-family: lora,Dancing scripit,serif; 
     padding: 0;
     margin: 0;
 }
@@ -83,10 +83,12 @@ h4 {
 }
 .msg h2 {
     color: rgb(35, 16, 182);
+    border: skyblue;
 }
 .msg p {
     color: steelblue;
     padding-bottom: 15px;
+    border: skyblue;
 }
 .book:hover, .join:hover {
     color: white;
