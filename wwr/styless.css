@@ -12,11 +12,11 @@
 #hero-box{
     background: none;
 }
-#hero-img{
-    background-image: none;
+#hero-img h1{
+    text-align: center;
 }
-#hero-img{
-    background-image: none;
+#hero-img h4{
+    text-align: center;
 }
 .hometittle{
     bottom: auto;
@@ -32,24 +32,30 @@
 }
 .rivers-card{
     background: none;
+    border: 10px solid red;
 }
 .card-img{
     background: none;
+    border: 10px solid red;
+
 }
 .icon{
     bottom: auto;
 }
 .camping-card{
     background: none;
+    border: 10px solid red;
 }
 .card-img{
     background: none;
+    border: 10px solid red;
 }
 .icon{
     bottom: auto;
 }
 .moutians{
     background: none;
+    border: 10px solid red;
 }
 .msg{
     background: none;
