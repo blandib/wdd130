@@ -1,0 +1,68 @@
+#logo link{
+    top: auto;
+}
+
+.logo{
+    top: 0%;
+}
+#hero{
+    background-image: none;
+
+}
+#hero-box{
+    background: none;
+}
+#hero-img h1{
+    text-align: center;
+}
+#hero-img h4{
+    text-align: center;
+}
+.hometittle{
+    bottom: auto;
+}
+.bottom-box{
+    bottom:auto ;
+}
+.book{
+    border: 0ch;
+}
+.homegrid{
+    background-position: 0%;
+}
+.rivers-card{
+    background: none;
+    border: 10px solid red;
+}
+.card-img{
+    background: none;
+    border: 10px solid red;
+
+}
+.icon{
+    bottom: auto;
+}
+.camping-card{
+    background: none;
+    border: 10px solid red;
+}
+.card-img{
+    background: none;
+    border: 10px solid red;
+}
+.icon{
+    bottom: auto;
+}
+.moutians{
+    background: none;
+    border: 10px solid red;
+}
+.msg{
+    background: none;
+}
+.join{
+    box-sizing: border-box;
+}
+.socail{
+    background-image: none;
+}
