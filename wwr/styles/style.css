@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Explora&family=Lora&family=Oswald:wght@300&family=Playfair+Display&family=Satisfy&display=swap');
 
-headline {
+heading {
     font: Dancing script, lora;
 }
 
@@ -232,4 +232,93 @@ icon {
     footer {
         margin-top: 25px;
     }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Explora&family=Lora&family=Oswald:wght@300&family=Playfair+Display&family=Satisfy&display=swap');
+
+hearding {
+    font: Dancing script, lora;
+}
+
+#contens {
+    max-width: 1600px;
+    margin: 0 auto;
+    
+}
+nav a {
+    padding: 35px;
+}
+#logo_links {
+    width: 80px;
+    padding-top: 5px;
+}
+.logos {
+    width: 80px;
+}
+#rivers1-img {
+    width: 100%;
+    justify-items: center;
+    z-index: -1;
+}
+#rivers1 {
+    margin: 200px;
+}
+.rivers {
+    margin: 200px;
+    justify-self: left;
+    width: 300px;
+    height: 400px;
+    
+}
+.rivers1-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 10px;
+    color: blue;
+}
+.rivers-grid {
+    
+    padding: 150px;
+    
+}
+body {
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: blue;
+    margin: 0;
+    padding: 0;
+}
+.book, .joins {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    color: blue;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+    color: blue;
+    justify-self: right;
+}
+.msg {
+    background-color: aliceblue;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2 {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    justify-self: right;
+}
+h2 {
+    margin: 0;
+}
+footer {
+    padding: 10px 20px;
+    margin-top: 100px;
+}
+footer  .social img {
+    padding-left: 15px;
+    justify-self: left;
 }
