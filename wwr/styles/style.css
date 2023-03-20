@@ -234,91 +234,59 @@ icon {
     }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Explora&family=Lora&family=Oswald:wght@300&family=Playfair+Display&family=Satisfy&display=swap');
 
-hearding {
-    font: Dancing script, lora;
-}
 
-#contens {
-    max-width: 1600px;
-    margin: 0 auto;
     
-}
-nav a {
-    padding: 35px;
-}
-#logo_links {
-    width: 80px;
-    padding-top: 5px;
-}
-.logos {
-    width: 80px;
+
+
+.rivers1 {    
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
 }
 #rivers1-img {
     width: 100%;
-    justify-items: center;
+    
+}
+#rivers1-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
     z-index: -1;
 }
-#rivers1 {
-    margin: 200px;
-}
+/*.rivers-grid {*/
+   /* display: grid;
+}*/
 .rivers {
-    margin: 200px;
-    justify-self: left;
-    width: 300px;
-    height: 400px;
-    
+    float: none;
+    border: solid yellow;
+    box-shadow: 5px 5px 10px blue;
 }
-.rivers1-title {
+.rivers-card {
+    width: 80px;
+    /*justify-self: center;*/
+}
+.heading {
+    font: Dancing script, lora;
+    font-size: 1.5em;
+    /*justify-self: center;*/
+}
+#heading {
+    font: Dancing script, lora;
+    font-size: 1.5em;
+   /* justify-self: center;*/
+}
+.heading {
+    font: Dancing script, lora;
+    font-size: 1.5em;
+    /*justify-self: center;*/
+}
+#heading {
+    font: Dancing script, lora;
+    font-size: 1.5em;
+    /*justify-self: center;*/
+}
+p {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2em;
-    margin-top: 10px;
-    color: blue;
-}
-.rivers-grid {
-    
-    padding: 150px;
-    
-}
-body {
-    background-color: aliceblue;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
-    color: blue;
-    margin: 0;
-    padding: 0;
-}
-.book, .joins {
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    color: blue;
-}
-.msg p {
-    font-size: .8em;
-    padding-bottom: 15px;
-    color: blue;
-    justify-self: right;
-}
-.msg {
-    background-color: aliceblue;
-    line-height: 1.5em;
-    padding: 35px;
-}
-.msg h2 {
-    color: blue;
-    font-family: 'Times New Roman', Times, serif;
-    justify-self: right;
-}
-h2 {
-    margin: 0;
-}
-footer {
-    padding: 10px 20px;
-    margin-top: 100px;
-}
-footer  .social img {
-    padding-left: 15px;
-    justify-self: left;
+    font-size: 0.9em;
+    /*justify-self: center;*/
 }
