@@ -5,7 +5,7 @@ heading {
 }
 
 #content {
-    max-width: 1600px;
+    max-width: 1600 px;
     margin: 0 auto;
 }
 .card-img {
@@ -71,7 +71,7 @@ header {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: 0/10;
+    grid-template-columns: repeat(10, 1fr);
 }
 h4 {
     color: blue;
@@ -166,7 +166,7 @@ footer .social img {
     justify-self: center;
     align-self: center;
 }
-icon {
+.icon {
     width: 80px;
     padding-top: 10px;
 }
@@ -336,12 +336,12 @@ form {
 /*.rivers-grid {*/
    /* display: grid;
 }*/
-.rivers {
+.rivers1 {
     float: none;
     border: solid yellow;
     box-shadow: 5px 5px 10px blue;
 }
-.rivers-card {
+.rivers1-card {
     width: 80px;
     /*justify-self: center;*/
 }
