@@ -326,19 +326,38 @@ form {
 }
 #rivers1-img {
     width: 100%;
-    
-}
-#rivers1-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
+    text-align: center;
+    
 }
-/*.rivers-grid {*/
-   /* display: grid;
-}*/
+.rivers1-tittle {
+    text-align: center;
+    color: red;
+}
+.h2r {
+    color: red;
+    text-align: center;
+}
+.book1 {
+    text-align: left;
+    justify-self: left;
+    background-color: darkblue;
+    color: aliceblue;
+}
+.book1:hover {
+    color: aqua;
+}
+#rivers1-box {
+    text-align: center;
+}
+.rivers1-grid {
+    float: right;
+}
 .rivers1 {
-    float: none;
-    border: solid yellow;
+    float: right;
+    border: solid yellowgreen;
     box-shadow: 5px 5px 10px blue;
 }
 .rivers1-card {
@@ -348,25 +367,47 @@ form {
 .heading {
     font: Dancing script, lora;
     font-size: 1.5em;
-    /*justify-self: center;*/
+    justify-self: center;
+    text-align: center;
+    color: red;
+}
+h4 {
+    text-align: center;
+    color: red;
 }
 #heading {
     font: Dancing script, lora;
-    font-size: 1.5em;
-   /* justify-self: center;*/
+    font-size: 1em;
+    justify-self: center;
+    text-align: center;
+    color: red;
 }
 .heading {
     font: Dancing script, lora;
-    font-size: 1.5em;
-    /*justify-self: center;*/
+    font-size: 1em;
+    justify-self: center;
+    text-align: center;
+    color: red;
 }
 #heading {
     font: Dancing script, lora;
-    font-size: 1.5em;
-    /*justify-self: center;*/
+    font-size: 1em;
+    justify-self: center;
+    text-align: center;
+    color: red;
+    
 }
 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.9em;
-    /*justify-self: center;*/
+    justify-self: start;
+    text-align: start;
+    margin: 35px;
+    color: darkgreen;
+}
+#blacground {
+    background-color: aliceblue;
+    color: rosybrown;
+    justify-items: center;
+    text-align: right;
 }
