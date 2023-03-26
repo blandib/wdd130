@@ -34,7 +34,7 @@ nav a {
     color: blue;
     text-decoration: none;
     padding: 50px;
-    font-size: 2.5em;
+    font-size: 1.5em;
     font: Alkatra;
 }
 header {
@@ -106,11 +106,11 @@ h2 {
     
 }
 .msg {
-    background-color: aliceblue;
+    background-color: whitesmoke;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 10px 10px 20px red;
+    box-shadow: 10px 10px 15px red;
 }
 p {
     font-size: 2.5em;
