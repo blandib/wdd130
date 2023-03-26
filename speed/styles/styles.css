@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=Explora&family=Lora&family=Oswald:wght@300&family=Playfair+Display&family=Satisfy&display=swap');
+
+heading {
+    font: Alkatra;
+}
+
+#content {
+    max-width: 1600 px;
+    margin: 0 auto;
+}
+#logo_link {
+    
+    padding-top: 15px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 300px;
+    /*margin: 0 auto;*/
+    /*justify-self: start;*/
+    
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+nav a:hover {
+    background-color: skyblue;
+    color: rgb(67, 243, 108);;
+}
+nav a {
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 2.5em;
+    font: Alkatra;
+}
+header {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+h1 {
+    text-align: center;
+    background-color: whitesmoke;
+    color: darkgreen;
+    font-size: 3em;
+    font: Alkatra;
+}
+h2 {
+    text-align: center;
+    background-color: whitesmoke;
+    color: darkgreen;
+    font-size: 3em;
+    margin: 0;
+}
+.button-box {
+    text-align: center;
+}
+.book, .join {
+    background-color: skyblue;
+    color: white;
+    text-decoration: none;
+    font-size: 2.5em;
+    font: Alkatra;
+    padding: 30px 60px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.book:hover, .join:hover {
+    color: aquamarine;
+}
+#bike {
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 1/5;
+    margin-top: -10px;
+}
+
+.bike-img {
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative;
+}
+.inner-1 {
+    width: 100px;
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    
+
+    
+}
+.food-img {
+    float: right;
+    position: relative;
+    border: solid red;
+}
+.inner-img {
+    position: absolute;
+    right: 50pt;
+    bottom: -1400pt;
+    
+    
+}
+.msg {
+    background-color: aliceblue;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 10px 10px 20px red;
+}
+p {
+    font-size: 2.5em;
+    color: rgb(40, 45, 36);
+    background-color: whitesmoke;
+    font: Alkatra;
+}
+.join1, .join2 {
+    font-size: 2.5em;
+    color: skyblue;
+    text-align: center;
+    text-decoration: none;
+
+}
+.join1:hover, .join2:hover {
+    color: rgb(67, 243, 108);
+}
+footer {
+    background-color: whitesmoke;
+    color: blue;
+    font: Alkatra;
+    padding: 50px 100px;
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer a {
+    color: blue;
+    text-decoration: none;
+    font: Alkatra;
+}
+footer a:hover {
+    color: rgb(67, 243, 108);
+}
+footer p {
+    font-size: 2.5em;
+    color: blue;
+    font: Alkatra;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 20px;
+}

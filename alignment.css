@@ -1,0 +1,38 @@
+.content {
+    width: 100%;
+}
+section {
+    width: 50%;
+    border: 1px solid;
+  }
+.block1 {
+   margin: auto;
+}  
+.block2 {
+    margin-left:  auto;
+}
+.block3 {
+    margin-left:  0 auto;
+}
+.block4 {
+    margin: 0 auto;
+}
+p:nth-of-type(1) {
+    text-align: left;
+}
+p:nth-of-type(2) {
+    text-align: center;
+
+}
+p:nth-of-type(3) {
+    text-align: right;
+}
+.block4 p:nth-of-type(1) {
+    text-align: right;
+}
+.block4 p:nth-of-type(2) {
+    text-align: center;
+}
+.block4 p:nth-of-type(3), p:nth-of-type(4) {
+    text-align: left;
+}
