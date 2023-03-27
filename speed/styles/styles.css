@@ -168,3 +168,33 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    
+  }
+  
+  a:hover {
+    background-color: aliceblue;
+    color: rgb(228, 75, 231);
+  }
+  
+  .previous {
+    background-color: gray;
+    color: powderblue;
+    text-align: center;
+    
+  }
+  
+  .next {
+    background-color: azure;
+    color: aqua;
+    text-align: center;
+  }
+  
+  .round {
+    border-radius: 10%;
+  }
