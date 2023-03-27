@@ -45,16 +45,23 @@ header {
 h1 {
     text-align: center;
     background-color: whitesmoke;
-    color: darkgreen;
+    color: purple;
     font-size: 3em;
     font: Alkatra;
 }
 h2 {
     text-align: center;
     background-color: whitesmoke;
-    color: darkgreen;
+    color: purple;
     font-size: 3em;
     margin: 0;
+}
+body {
+    background-color: whitesmoke;
+    font: Alkatra;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
 }
 .button-box {
     text-align: center;
@@ -63,11 +70,12 @@ h2 {
     background-color: skyblue;
     color: white;
     text-decoration: none;
-    font-size: 2.5em;
+    font-size: 1.5em;
     font: Alkatra;
     padding: 30px 60px;
-    margin-top: 100px;
+    margin-top: 10px;
     border-radius: 10px;
+    text-align: calc(10 3fr);
 }
 .book:hover, .join:hover {
     color: aquamarine;
@@ -110,19 +118,22 @@ h2 {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 10px 10px 15px red;
+    box-shadow: 10px 10px 15px rgb(121, 84, 121);
 }
 p {
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: rgb(40, 45, 36);
     background-color: whitesmoke;
     font: Alkatra;
 }
 .join1, .join2 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: skyblue;
     text-align: center;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
 
 }
 .join1:hover, .join2:hover {
