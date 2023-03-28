@@ -185,7 +185,7 @@ a {
   .previous {
     background-color: gray;
     color: powderblue;
-    text-align: center;
+    
     
   }
   
@@ -196,5 +196,8 @@ a {
   }
   
   .round {
-    border-radius: 10%;
+    border-radius: -20px;
+  }
+  footer .a {
+    text-align: start;
   }
