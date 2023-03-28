@@ -173,7 +173,7 @@ footer .social img {
 a {
     text-decoration: none;
     display: inline-block;
-    padding: 5px 10px;
+    padding: 3px 6px;
     
   }
   
@@ -196,8 +196,9 @@ a {
   }
   
   .round {
-    border-radius: -20px;
+    border-radius: -10px;
   }
   footer .a {
-    text-align: start;
+    text-align: center;
+    
   }
