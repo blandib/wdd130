@@ -15,15 +15,15 @@ Fonts are separated by a | */
   --paragraph-font: Playfair Display;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: rgb(122, 16, 161);  /* headlines on a white background */ 
+  --headline-color-on-white: #004b23;  /* headlines on a white background */ 
   --headline-color-on-color: #004b23; /* headlines on a colored background */ 
   --paragraph-color-on-white: #004b23; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #087200; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: whitesmoke; /* paragraph text on a colored background */ 
   --paragraph-background-color: #9ef01a  ;
   --nav-link-color: #034676;
   --nav-background-color: #72e000;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #140bc0;
+  --nav-hover-link-color: whitesmoke;
+  --nav-hover-background-color: #004b23;
 }
 
 
@@ -74,7 +74,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: whitesmoke;
 }
 .colors td{
   width: 25%;
