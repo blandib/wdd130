@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 800px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 0  ;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  height: 500px;
+  display: flex;
+  align-content: center;
+  justify-items: center;
+  grid-template-columns: auto auto auto auto ;
+  background-color: white;
+  padding: 150px;
+  
+}
+.grid > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  margin-bottom: 0 auto;
+}
+.grid img {
+  grid-column: 2/4;
+  margin-bottom: 0 auto;
+  
+  
+}
+#item {
+  grid-column: 2/4;
+  justify-self: center;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  
+}
+#item3 {
+  grid-column: 3/4;
+  justify-self: center;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+
+}
+#item1 {
+  grid-column: 3/4;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  background-color: rgb(156, 155, 155);
+  height: 250px;
+  width: 250px;
+}
+#item1 h2 {
+  color: rgb(131, 10, 10);
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */

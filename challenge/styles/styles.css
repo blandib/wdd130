@@ -1,0 +1,16 @@
+.boby {
+  width: 800px;
+  height: 1000px;
+  background-color: salmon;
+  justify-self: center;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.h1 {
+  text-align: center;
+  background-color: white;
+  
+}

@@ -1,0 +1,23 @@
+.img {
+    justify-self: start;
+    width: 100px;
+    height: 80px;
+    z-index: -1;
+    background-color: aliceblue;
+}
+.h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    justify-self: auto;
+    color: black;
+}
+.h2 {
+    justify-self: left;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+p {
+    justify-self: center;
+    color: black;
+}

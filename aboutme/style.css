@@ -1,19 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=Explora&family=Lora&family=Narnoor&family=Oswald:wght@300&family=Playfair+Display&family=Satisfy&family=Slabo+27px&display=swap');
 .container {
  
-  max-width: 650px;
+  max-width: 950px;
   margin:  auto;
   text-align: center;
 
 }
 
-/*.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}*/
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Slabo+27px display;
   
 }
 
@@ -21,7 +17,7 @@ body {
 #img {
     
     border-radius: 15px;
-    border: solid blue;
+    border: solid blueviolet;
   
     
    
@@ -31,9 +27,8 @@ body {
 .about-section {
   border: none;
   outline: 0;
-  padding: 8px;
   color: white;
-  background-color: blue;
+  background-color: blueviolet;
   text-align: center;
   cursor: pointer;
   font-size: 18px;
@@ -41,21 +36,24 @@ body {
 
 
 .title {
-  color: blue;
+  color: blueviolet;
   font: Arial;
   text-align: center;
 }
 .name {
   text-align: center;
-  font:  Helvetica;
+  font-family:  Slabo+27px display;
+  color: blueviolet;
+  font: Slabo+27px display;
 }
 .nick {
   text-align: center;
-  font:  Helvetica;
+  font-family:  Slabo+27px display;
+  color: blueviolet;
 }
 p {
   text-align: center;
-  font: sans-serif;
+  font-family: Slabo+27px display;
   
 }
 
@@ -65,14 +63,44 @@ button {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: blue;
+  background-color: blueviolet;
   text-align: center;
   cursor: pointer;
-  width: 50%;
   font-size: 18px;
 }
+button:hover, a:hover {
+  color: red;
+}
 
-@media screen and (max-width: 650px) {
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: blueviolet;
+}
+footer a {
+  color: blueviolet;
+  text-decoration: none;
+}
+footer a:hover {
+  color: red;
+}
+footer p {
+  font-size: 1.2em;
+  font: Slabo+27px display;
+}
+footer p a:hover {
+  text-decoration: underline;
+}
+footer .social img {
+  padding-top: 15px;
+}
+footer p {
+  color: white;
+  background-color: blueviolet;
+  font: Slabo+27px display;
+}
+
+@media screen and (max-width: 950px) {
   .column {
     width: 100%;
     display: block;
